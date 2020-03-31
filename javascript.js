@@ -1,13 +1,13 @@
 function changeImage() {
 	var image = document.getElementById('myImage');
 	if (image.src.match("norsu")) {
-	image.src = "./kuvat/lightoff.gif";
+	image.src = "lightoff.gif";
 	
 	}else if (image.src.match("lighton")) {
-	  image.src = "./kuvat/norsu.gif";
+	  image.src = "norsu.gif";
 	
 	}else {
-	image.src = "./kuvat/lighton.gif"; }
+	image.src = "lighton.gif"; }
 	}
 	
 
